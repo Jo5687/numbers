@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/bin/bash
 # numbers.sh
 # Jo Kaufman
 echo "Enter a positive number: "
@@ -8,7 +8,7 @@ do
 	echo "Enter a positive number: "
 	read NUMBER
 done
-for((i = 1; i <= $NUMBER; i++))
+for((i = 1; i <= NUMBER; i++))
 do
 	if [ $((i%2)) -eq 0 ]
 	then
